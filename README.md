@@ -31,7 +31,7 @@ emoji.random();
 emoji.strip("⚠️ 〰️ 〰️ low disk space");
 
 // Replace emoji's by callback method: "warning: low disk space"
-emoji.replace("⚠️ 〰️ 〰️ low disk space", (emoji) => `${emoji.key}:`);
+emoji.replace("⚠️ 〰️ 〰️ low disk space", (emoji) => `:${emoji.aliases[0]}:`);
 ```
 
 ## Other
