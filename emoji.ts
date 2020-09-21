@@ -3,7 +3,7 @@
 import { emojis, Emoji } from "./all.ts";
 import { reUnicode } from "./unicode.ts";
 
-export { Emoji } from "./all.ts";
+export type { Emoji } from "./all.ts";
 
 // Regex to parse emoji in a string - e.g. :coffee:
 const reEmojiName = /:([a-zA-Z0-9_\-\+]+):/g;
