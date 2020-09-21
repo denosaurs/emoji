@@ -30,8 +30,8 @@ emoji.random();
 // Strips the string from emoji's, in this case returns: "low disk space".
 emoji.strip("⚠️ 〰️ 〰️ low disk space");
 
-// Replace emoji's by callback method: "warning: low disk space"
-emoji.replace("⚠️ 〰️ 〰️ low disk space", (emoji) => `:${emoji.aliases[0]}:`);
+// Replace emoji's by callback method: "warning wavy_dash wavy_dash low disk space"
+emoji.replace("⚠️ 〰️ 〰️ low disk space", (emoji) => `${emoji.aliases[0]}`);
 ```
 
 ## Other
