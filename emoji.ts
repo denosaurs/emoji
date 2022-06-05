@@ -25,7 +25,7 @@ function stripNSB(code: string): string {
 
 /** Removes colons on either side of the string. */
 function stripColons(str: string): string {
-  var colonIndex = str.indexOf(":");
+  const colonIndex = str.indexOf(":");
   if (colonIndex > -1) {
     if (colonIndex === str.length - 1) {
       str = str.substring(0, colonIndex);
@@ -122,7 +122,7 @@ export function replace(
   const match = str.match(reUnicode) ?? [];
   const result = match
     .map((s, i) => {
-      let emoji = byCode[stripNSB(s)];
+      const emoji = byCode[stripNSB(s)];
       if (emoji && trim && match[i + 1] === " ") {
         match[i + 1] = "";
       }
