@@ -1,9 +1,8 @@
 // Copyright 2020-present the denosaurs team. All rights reserved. MIT license.
 
-import { emojis, Emoji } from "./all.ts";
+import type { Emoji } from "./types.ts";
+import emojis from "./all.json" assert { type: "json" };
 import { reUnicode } from "./unicode.ts";
-
-export type { Emoji } from "./all.ts";
 
 // Regex to parse emoji in a string - e.g. :coffee:
 const reEmojiName = /:([a-zA-Z0-9_\-\+]+):/g;
