@@ -3,14 +3,15 @@
  * cldr-annotations: https://raw.githubusercontent.com/unicode-org/cldr-json/main/cldr-json/cldr-annotations-full/annotations/en/annotations.json
  * Unicode/Emoji Versioning: https://unicode.org/reports/tr51/proposed.html#Versioning
  *
- * @property emoji - from emoji-test
- * @property description - from emoji-test
- * @property category - from emoji-test
- * @property emojiVersion - from emoji-test
- * @property tags - derived from cldr-annotations
- * @property aliases - derived from cldr-annotations
- * @property unicodeVersion - defined by emoji spec
- * @property skinTones - Derived from emoji-test data
+ * @property emoji - The actual emoji char (emoji-test)
+ * @property description - A description of the emoji (emoji-test)
+ * @property group - For categorizartion (emoji-test)
+ * @property subgroup - For categorizartion (emoji-test)
+ * @property emojiVersion - Emoji version emoji was introduced (emoji-test)
+ * @property unicodeVersion - Unicode version emoji was introduced (Unicode/Emoji Versioning)
+ * @property tags - Related keywords (cldr-annotations)
+ * @property aliases - Unique identifier (cldr-annotations)
+ * @property skinTones - Whether emoji has skin-tone variants (emoji-test)
  */
 export interface Emoji {
   emoji: string;

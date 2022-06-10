@@ -5,7 +5,7 @@
 
 # This workflow will run the update script to build the emoji db
 
-name: update db
+name: update emojis
 
 on: 
   workflow_dispatch:
@@ -30,7 +30,7 @@ jobs:
           deno-version: v1.x
 
       - name: Run Update Script
-        run: deno run --allow-net --allow-write ./db/update.ts ${{ github.event.inputs.version }}
+        run: deno run --allow-net --allow-write ./update.ts ${{ github.event.inputs.version }}
 
       - name: Run deno fmt
         run: deno fmt
@@ -39,6 +39,8 @@ jobs:
         uses: peter-evans/create-pull-request@v4
         with:
           commit-message: "chore: updates emojis to version ${{ github.event.inputs.version }}"
-          title: Update Emojis to Version ${{ github.event.inputs.version }}
-          body: Updates emojis
           branch: update-emoji
+          title: Update Emojis to Version ${{ github.event.inputs.version }}
+          body: "# Updates emojis to v${{ github.event.inputs.version }}\n
+            Latest Emoji List is: https://unicode.org/emoji/charts/full-emoji-list.html\n
+            Latest Additions are: https://unicode.org/emoji/charts/emoji-released.html"
