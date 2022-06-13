@@ -1,12 +1,14 @@
-// Usage: deno run --allow-net --allow-write update.ts
+// Usage: deno run --allow-net --allow-write update.ts 14
 import { Emoji } from "./types.ts";
 
-export enum Qualification {
-  FULLY_QUALIFIED = "fully-qualified",
-  MINIMALLY_QUALIFIED = "minimally-qualified",
-  UNQUALIFIED = "unqualified",
-  COMPONENT = "component",
-}
+const Qualification = {
+  FULLY_QUALIFIED: "fully-qualified",
+  MINIMALLY_QUALIFIED: "minimally-qualified",
+  UNQUALIFIED: "unqualified",
+  COMPONENT: "component",
+} as const;
+
+type Qualification = typeof Qualification[keyof typeof Qualification];
 
 interface FullEmoji extends Emoji {
   codepoints: string[];
