@@ -1,4 +1,4 @@
-// Copyright 2020-present the denosaurs team. All rights reserved. MIT license.
+// Copyright 2020-2022 the denosaurs team. All rights reserved. MIT license.
 
 import type { Emoji } from "./types.ts";
 import emojis from "./all.json" assert { type: "json" };

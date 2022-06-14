@@ -48,4 +48,4 @@ deno fmt and commit messages are done following Conventional Commits spec.
 
 ### Licence
 
-Copyright 2020-present, the denosaurs team. All rights reserved. MIT license.
+Copyright 2020-2022, the denosaurs team. All rights reserved. MIT license.
