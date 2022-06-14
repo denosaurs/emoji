@@ -1,0 +1,46 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+# This workflow will run the update script to build the emoji db
+
+name: update emojis
+
+on: 
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Emoji Version'
+        required: true
+        default: 14
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup repo
+        uses: actions/checkout@v3
+
+      - name: Setup Deno
+        # uses: denoland/setup-deno@v1
+        uses: denoland/setup-deno@004814556e37c54a2f6e31384c9e18e983317366
+        with:
+          deno-version: v1.x
+
+      - name: Run Update Script
+        run: deno run --allow-net --allow-write ./update.ts ${{ github.event.inputs.version }}
+
+      - name: Run deno fmt
+        run: deno fmt
+        
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          commit-message: "chore: updates emojis to version ${{ github.event.inputs.version }}"
+          branch: update-emoji
+          title: Update Emojis to Version ${{ github.event.inputs.version }}
+          body: "# Updates emojis to v${{ github.event.inputs.version }}\n
+            Latest Emoji List is: https://unicode.org/emoji/charts/full-emoji-list.html\n
+            Latest Additions are: https://unicode.org/emoji/charts/emoji-released.html"
