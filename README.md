@@ -1,7 +1,7 @@
 # emoji
 
 [![Tags](https://img.shields.io/github/release/denosaurs/emoji)](https://github.com/denosaurs/emoji/releases)
-[![CI Status](https://img.shields.io/github/workflow/status/denosaurs/emoji/check)](https://github.com/denosaurs/emoji/actions)
+[![CI Status](https://img.shields.io/github/actions/workflow/status/denosaurs/emoji/checks.yml?branch=main)](https://github.com/denosaurs/emoji/actions)
 [![License](https://img.shields.io/github/license/denosaurs/emoji)](https://github.com/denosaurs/emoji/blob/master/LICENSE)
 
 ## Usage
