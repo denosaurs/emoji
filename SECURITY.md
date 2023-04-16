@@ -1,7 +1,7 @@
 # Security Policy
 
 > This security policy is adapted from the
-> [security policy](https://github.com/denoland/deno/security).
+> [deno security policy](https://github.com/denoland/deno/security).
 
 Thank you for taking the time to investigate a security issue related to one of
 Denosaurs projects. The security of our projects is our topmost priority. We
