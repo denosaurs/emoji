@@ -1,0 +1,5 @@
+{
+  "tasks": {
+    "update": "deno run --allow-net --allow-write update.ts"
+  }
+}

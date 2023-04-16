@@ -1,6 +1,4 @@
-// Copyright 2020-2022 the denosaurs team. All rights reserved. MIT license.
-
-import { assertEquals } from "https://deno.land/std@0.170.0/testing/asserts.ts";
+import { assertEquals } from "https://deno.land/std@0.183.0/testing/asserts.ts";
 import * as emj from "./emoji.ts";
 
 Deno.test({
