@@ -77,7 +77,7 @@ const allEmojis: Emoji[] = emojiTestText.split("# group: ").slice(1)
             ? emojiUnicodeMap[emojiVersion]
             : emojiVersion;
 
-          const tags = (annotations[emojiChar]?.default || []);
+          const tags = annotations[emojiChar]?.default || [];
           if (description) tags.push(description);
 
           tags.forEach((tag) => {
