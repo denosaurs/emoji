@@ -901,6 +901,29 @@
   },
   {
     "group": "Smileys & Emotion",
+    "subgroup": "face-neutral-skeptical",
+    "emoji": "🫨",
+    "emojiVersion": 15,
+    "unicodeVersion": 15,
+    "description": "shaking face",
+    "tags": [
+      "earthquake",
+      "face",
+      "shaking",
+      "shock",
+      "vibrate",
+      "shaking face"
+    ],
+    "aliases": [
+      "earthquake",
+      "shaking",
+      "shock",
+      "vibrate",
+      "shaking_face"
+    ]
+  },
+  {
+    "group": "Smileys & Emotion",
     "subgroup": "face-sleepy",
     "emoji": "😌",
     "emojiVersion": 0.6,
@@ -1818,7 +1841,7 @@
     "emoji": "😡",
     "emojiVersion": 0.6,
     "unicodeVersion": 6,
-    "description": "pouting face",
+    "description": "enraged face",
     "tags": [
       "angry",
       "enraged",
@@ -1827,12 +1850,12 @@
       "pouting",
       "rage",
       "red",
-      "pouting face"
+      "enraged face"
     ],
     "aliases": [
       "enraged",
       "rage",
-      "pouting_face"
+      "enraged_face"
     ]
   },
   {
@@ -2321,23 +2344,7 @@
   },
   {
     "group": "Smileys & Emotion",
-    "subgroup": "emotion",
-    "emoji": "💋",
-    "emojiVersion": 0.6,
-    "unicodeVersion": 6,
-    "description": "kiss mark",
-    "tags": [
-      "kiss",
-      "kiss mark",
-      "lips"
-    ],
-    "aliases": [
-      "kiss_mark"
-    ]
-  },
-  {
-    "group": "Smileys & Emotion",
-    "subgroup": "emotion",
+    "subgroup": "heart",
     "emoji": "💌",
     "emojiVersion": 0.6,
     "unicodeVersion": 6,
@@ -2355,7 +2362,7 @@
   },
   {
     "group": "Smileys & Emotion",
-    "subgroup": "emotion",
+    "subgroup": "heart",
     "emoji": "💘",
     "emojiVersion": 0.6,
     "unicodeVersion": 6,
@@ -2371,7 +2378,7 @@
   },
   {
     "group": "Smileys & Emotion",
-    "subgroup": "emotion",
+    "subgroup": "heart",
     "emoji": "💝",
     "emojiVersion": 0.6,
     "unicodeVersion": 6,
@@ -2387,7 +2394,7 @@
   },
   {
     "group": "Smileys & Emotion",
-    "subgroup": "emotion",
+    "subgroup": "heart",
     "emoji": "💖",
     "emojiVersion": 0.6,
     "unicodeVersion": 6,
@@ -2403,7 +2410,7 @@
   },
   {
     "group": "Smileys & Emotion",
-    "subgroup": "emotion",
+    "subgroup": "heart",
     "emoji": "💗",
     "emojiVersion": 0.6,
     "unicodeVersion": 6,
@@ -2421,7 +2428,7 @@
   },
   {
     "group": "Smileys & Emotion",
-    "subgroup": "emotion",
+    "subgroup": "heart",
     "emoji": "💓",
     "emojiVersion": 0.6,
     "unicodeVersion": 6,
@@ -2440,7 +2447,7 @@
   },
   {
     "group": "Smileys & Emotion",
-    "subgroup": "emotion",
+    "subgroup": "heart",
     "emoji": "💞",
     "emojiVersion": 0.6,
     "unicodeVersion": 6,
@@ -2455,7 +2462,7 @@
   },
   {
     "group": "Smileys & Emotion",
-    "subgroup": "emotion",
+    "subgroup": "heart",
     "emoji": "💕",
     "emojiVersion": 0.6,
     "unicodeVersion": 6,
@@ -2470,7 +2477,7 @@
   },
   {
     "group": "Smileys & Emotion",
-    "subgroup": "emotion",
+    "subgroup": "heart",
     "emoji": "💟",
     "emojiVersion": 0.6,
     "unicodeVersion": 6,
@@ -2485,7 +2492,7 @@
   },
   {
     "group": "Smileys & Emotion",
-    "subgroup": "emotion",
+    "subgroup": "heart",
     "emoji": "❣️",
     "emojiVersion": 1,
     "unicodeVersion": 8,
@@ -2499,7 +2506,7 @@
   },
   {
     "group": "Smileys & Emotion",
-    "subgroup": "emotion",
+    "subgroup": "heart",
     "emoji": "💔",
     "emojiVersion": 0.6,
     "unicodeVersion": 6,
@@ -2516,7 +2523,7 @@
   },
   {
     "group": "Smileys & Emotion",
-    "subgroup": "emotion",
+    "subgroup": "heart",
     "emoji": "❤️‍🔥",
     "emojiVersion": 13.1,
     "unicodeVersion": 13.1,
@@ -2530,7 +2537,7 @@
   },
   {
     "group": "Smileys & Emotion",
-    "subgroup": "emotion",
+    "subgroup": "heart",
     "emoji": "❤️‍🩹",
     "emojiVersion": 13.1,
     "unicodeVersion": 13.1,
@@ -2544,7 +2551,7 @@
   },
   {
     "group": "Smileys & Emotion",
-    "subgroup": "emotion",
+    "subgroup": "heart",
     "emoji": "❤️",
     "emojiVersion": 0.6,
     "unicodeVersion": 6,
@@ -2558,7 +2565,28 @@
   },
   {
     "group": "Smileys & Emotion",
-    "subgroup": "emotion",
+    "subgroup": "heart",
+    "emoji": "🩷",
+    "emojiVersion": 15,
+    "unicodeVersion": 15,
+    "description": "pink heart",
+    "tags": [
+      "cute",
+      "heart",
+      "like",
+      "love",
+      "pink",
+      "pink heart"
+    ],
+    "aliases": [
+      "cute",
+      "like",
+      "pink_heart"
+    ]
+  },
+  {
+    "group": "Smileys & Emotion",
+    "subgroup": "heart",
     "emoji": "🧡",
     "emojiVersion": 5,
     "unicodeVersion": 10,
@@ -2573,7 +2601,7 @@
   },
   {
     "group": "Smileys & Emotion",
-    "subgroup": "emotion",
+    "subgroup": "heart",
     "emoji": "💛",
     "emojiVersion": 0.6,
     "unicodeVersion": 6,
@@ -2588,7 +2616,7 @@
   },
   {
     "group": "Smileys & Emotion",
-    "subgroup": "emotion",
+    "subgroup": "heart",
     "emoji": "💚",
     "emojiVersion": 0.6,
     "unicodeVersion": 6,
@@ -2603,7 +2631,7 @@
   },
   {
     "group": "Smileys & Emotion",
-    "subgroup": "emotion",
+    "subgroup": "heart",
     "emoji": "💙",
     "emojiVersion": 0.6,
     "unicodeVersion": 6,
@@ -2618,7 +2646,26 @@
   },
   {
     "group": "Smileys & Emotion",
-    "subgroup": "emotion",
+    "subgroup": "heart",
+    "emoji": "🩵",
+    "emojiVersion": 15,
+    "unicodeVersion": 15,
+    "description": "light blue heart",
+    "tags": [
+      "cyan",
+      "heart",
+      "light blue",
+      "light blue heart",
+      "teal"
+    ],
+    "aliases": [
+      "cyan",
+      "teal"
+    ]
+  },
+  {
+    "group": "Smileys & Emotion",
+    "subgroup": "heart",
     "emoji": "💜",
     "emojiVersion": 0.6,
     "unicodeVersion": 6,
@@ -2633,7 +2680,7 @@
   },
   {
     "group": "Smileys & Emotion",
-    "subgroup": "emotion",
+    "subgroup": "heart",
     "emoji": "🤎",
     "emojiVersion": 12,
     "unicodeVersion": 12,
@@ -2649,7 +2696,7 @@
   },
   {
     "group": "Smileys & Emotion",
-    "subgroup": "emotion",
+    "subgroup": "heart",
     "emoji": "🖤",
     "emojiVersion": 3,
     "unicodeVersion": 9,
@@ -2666,7 +2713,25 @@
   },
   {
     "group": "Smileys & Emotion",
-    "subgroup": "emotion",
+    "subgroup": "heart",
+    "emoji": "🩶",
+    "emojiVersion": 15,
+    "unicodeVersion": 15,
+    "description": "grey heart",
+    "tags": [
+      "gray",
+      "grey heart",
+      "heart",
+      "silver",
+      "slate"
+    ],
+    "aliases": [
+      "slate"
+    ]
+  },
+  {
+    "group": "Smileys & Emotion",
+    "subgroup": "heart",
     "emoji": "🤍",
     "emojiVersion": 12,
     "unicodeVersion": 12,
@@ -2678,6 +2743,22 @@
     ],
     "aliases": [
       "white_heart"
+    ]
+  },
+  {
+    "group": "Smileys & Emotion",
+    "subgroup": "emotion",
+    "emoji": "💋",
+    "emojiVersion": 0.6,
+    "unicodeVersion": 6,
+    "description": "kiss mark",
+    "tags": [
+      "kiss",
+      "kiss mark",
+      "lips"
+    ],
+    "aliases": [
+      "kiss_mark"
     ]
   },
   {
@@ -2799,21 +2880,6 @@
   {
     "group": "Smileys & Emotion",
     "subgroup": "emotion",
-    "emoji": "💣",
-    "emojiVersion": 0.6,
-    "unicodeVersion": 6,
-    "description": "bomb",
-    "tags": [
-      "bomb",
-      "comic"
-    ],
-    "aliases": [
-      "bomb"
-    ]
-  },
-  {
-    "group": "Smileys & Emotion",
-    "subgroup": "emotion",
     "emoji": "💬",
     "emojiVersion": 0.6,
     "unicodeVersion": 6,
@@ -2897,13 +2963,12 @@
     "emoji": "💤",
     "emojiVersion": 0.6,
     "unicodeVersion": 6,
-    "description": "zzz",
+    "description": "ZZZ",
     "tags": [
       "comic",
       "good night",
       "sleep",
-      "ZZZ",
-      "zzz"
+      "ZZZ"
     ],
     "aliases": [
       "zzz"
@@ -3010,7 +3075,7 @@
       "rightwards hand"
     ],
     "aliases": [
-      "rightward"
+      "rightwards_hand"
     ],
     "skinTones": true
   },
@@ -3028,7 +3093,7 @@
       "leftwards hand"
     ],
     "aliases": [
-      "leftward"
+      "leftwards_hand"
     ],
     "skinTones": true
   },
@@ -3069,6 +3134,48 @@
       "beckon",
       "come",
       "offer"
+    ],
+    "skinTones": true
+  },
+  {
+    "group": "People & Body",
+    "subgroup": "hand-fingers-open",
+    "emoji": "🫷",
+    "emojiVersion": 15,
+    "unicodeVersion": 15,
+    "description": "leftwards pushing hand",
+    "tags": [
+      "high five",
+      "leftward",
+      "leftwards pushing hand",
+      "push",
+      "refuse",
+      "stop",
+      "wait"
+    ],
+    "aliases": [
+      "leftwards_pushing_hand"
+    ],
+    "skinTones": true
+  },
+  {
+    "group": "People & Body",
+    "subgroup": "hand-fingers-open",
+    "emoji": "🫸",
+    "emojiVersion": 15,
+    "unicodeVersion": 15,
+    "description": "rightwards pushing hand",
+    "tags": [
+      "high five",
+      "push",
+      "refuse",
+      "rightward",
+      "rightwards pushing hand",
+      "stop",
+      "wait"
+    ],
+    "aliases": [
+      "rightwards_pushing_hand"
     ],
     "skinTones": true
   },
@@ -3581,8 +3688,7 @@
     ],
     "aliases": [
       "agreement",
-      "meeting",
-      "shake"
+      "meeting"
     ],
     "skinTones": true
   },
@@ -9115,6 +9221,48 @@
   {
     "group": "Animals & Nature",
     "subgroup": "animal-mammal",
+    "emoji": "🫎",
+    "emojiVersion": 15,
+    "unicodeVersion": 15,
+    "description": "moose",
+    "tags": [
+      "animal",
+      "antlers",
+      "elk",
+      "mammal",
+      "moose"
+    ],
+    "aliases": [
+      "antlers",
+      "elk"
+    ]
+  },
+  {
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal",
+    "emoji": "🫏",
+    "emojiVersion": 15,
+    "unicodeVersion": 15,
+    "description": "donkey",
+    "tags": [
+      "animal",
+      "ass",
+      "burro",
+      "donkey",
+      "mammal",
+      "mule",
+      "stubborn"
+    ],
+    "aliases": [
+      "ass",
+      "burro",
+      "mule",
+      "stubborn"
+    ]
+  },
+  {
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal",
     "emoji": "🐎",
     "emojiVersion": 0.6,
     "unicodeVersion": 6,
@@ -9768,7 +9916,6 @@
     "unicodeVersion": 11,
     "description": "kangaroo",
     "tags": [
-      "Australia",
       "joey",
       "jump",
       "kangaroo",
@@ -10109,6 +10256,70 @@
   },
   {
     "group": "Animals & Nature",
+    "subgroup": "animal-bird",
+    "emoji": "🪽",
+    "emojiVersion": 15,
+    "unicodeVersion": 15,
+    "description": "wing",
+    "tags": [
+      "angelic",
+      "aviation",
+      "bird",
+      "flying",
+      "mythology",
+      "wing"
+    ],
+    "aliases": [
+      "angelic",
+      "aviation",
+      "flying",
+      "mythology"
+    ]
+  },
+  {
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird",
+    "emoji": "🐦‍⬛",
+    "emojiVersion": 15,
+    "unicodeVersion": 15,
+    "description": "black bird",
+    "tags": [
+      "bird",
+      "black",
+      "crow",
+      "raven",
+      "rook",
+      "black bird"
+    ],
+    "aliases": [
+      "crow",
+      "raven",
+      "rook",
+      "black_bird"
+    ]
+  },
+  {
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird",
+    "emoji": "🪿",
+    "emojiVersion": 15,
+    "unicodeVersion": 15,
+    "description": "goose",
+    "tags": [
+      "bird",
+      "fowl",
+      "goose",
+      "honk",
+      "silly"
+    ],
+    "aliases": [
+      "fowl",
+      "honk",
+      "silly"
+    ]
+  },
+  {
+    "group": "Animals & Nature",
     "subgroup": "animal-amphibian",
     "emoji": "🐸",
     "emojiVersion": 0.6,
@@ -10421,6 +10632,30 @@
     ],
     "aliases": [
       "reef"
+    ]
+  },
+  {
+    "group": "Animals & Nature",
+    "subgroup": "animal-marine",
+    "emoji": "🪼",
+    "emojiVersion": 15,
+    "unicodeVersion": 15,
+    "description": "jellyfish",
+    "tags": [
+      "burn",
+      "invertebrate",
+      "jelly",
+      "jellyfish",
+      "marine",
+      "ouch",
+      "stinger"
+    ],
+    "aliases": [
+      "invertebrate",
+      "jelly",
+      "marine",
+      "ouch",
+      "stinger"
     ]
   },
   {
@@ -10744,17 +10979,13 @@
       "Buddhism",
       "flower",
       "Hinduism",
-      "India",
       "lotus",
-      "purity",
-      "Vietnam"
+      "purity"
     ],
     "aliases": [
       "buddhism",
       "hinduism",
-      "india",
-      "purity",
-      "vietnam"
+      "purity"
     ]
   },
   {
@@ -10862,6 +11093,28 @@
     ],
     "aliases": [
       "tulip"
+    ]
+  },
+  {
+    "group": "Animals & Nature",
+    "subgroup": "plant-flower",
+    "emoji": "🪻",
+    "emojiVersion": 15,
+    "unicodeVersion": 15,
+    "description": "hyacinth",
+    "tags": [
+      "bluebonnet",
+      "flower",
+      "hyacinth",
+      "lavender",
+      "lupine",
+      "snapdragon"
+    ],
+    "aliases": [
+      "bluebonnet",
+      "lavender",
+      "lupine",
+      "snapdragon"
     ]
   },
   {
@@ -11081,7 +11334,7 @@
       "wind"
     ],
     "aliases": [
-      "flutter"
+      "leaf_fluttering_in_wind"
     ]
   },
   {
@@ -11112,6 +11365,21 @@
     ],
     "aliases": [
       "nest_with_eggs"
+    ]
+  },
+  {
+    "group": "Animals & Nature",
+    "subgroup": "plant-other",
+    "emoji": "🍄",
+    "emojiVersion": 0.6,
+    "unicodeVersion": 6,
+    "description": "mushroom",
+    "tags": [
+      "mushroom",
+      "toadstool"
+    ],
+    "aliases": [
+      "toadstool"
     ]
   },
   {
@@ -11621,21 +11889,6 @@
   {
     "group": "Food & Drink",
     "subgroup": "food-vegetable",
-    "emoji": "🍄",
-    "emojiVersion": 0.6,
-    "unicodeVersion": 6,
-    "description": "mushroom",
-    "tags": [
-      "mushroom",
-      "toadstool"
-    ],
-    "aliases": [
-      "toadstool"
-    ]
-  },
-  {
-    "group": "Food & Drink",
-    "subgroup": "food-vegetable",
     "emoji": "🥜",
     "emojiVersion": 3,
     "unicodeVersion": 9,
@@ -11665,8 +11918,7 @@
       "legume"
     ],
     "aliases": [
-      "kidney",
-      "legume"
+      "kidney"
     ]
   },
   {
@@ -11682,6 +11934,47 @@
     ],
     "aliases": [
       "chestnut"
+    ]
+  },
+  {
+    "group": "Food & Drink",
+    "subgroup": "food-vegetable",
+    "emoji": "🫚",
+    "emojiVersion": 15,
+    "unicodeVersion": 15,
+    "description": "ginger root",
+    "tags": [
+      "beer",
+      "ginger root",
+      "root",
+      "spice"
+    ],
+    "aliases": [
+      "root",
+      "spice"
+    ]
+  },
+  {
+    "group": "Food & Drink",
+    "subgroup": "food-vegetable",
+    "emoji": "🫛",
+    "emojiVersion": 15,
+    "unicodeVersion": 15,
+    "description": "pea pod",
+    "tags": [
+      "beans",
+      "edamame",
+      "legume",
+      "pea",
+      "pod",
+      "vegetable",
+      "pea pod"
+    ],
+    "aliases": [
+      "edamame",
+      "pea",
+      "pod",
+      "pea_pod"
     ]
   },
   {
@@ -13450,7 +13743,8 @@
       "world"
     ],
     "aliases": [
-      "asia"
+      "asia",
+      "australia"
     ]
   },
   {
@@ -17993,6 +18287,31 @@
   {
     "group": "Activities",
     "subgroup": "game",
+    "emoji": "🔫",
+    "emojiVersion": 0.6,
+    "unicodeVersion": 6,
+    "description": "water pistol",
+    "tags": [
+      "gun",
+      "handgun",
+      "pistol",
+      "revolver",
+      "tool",
+      "water",
+      "weapon",
+      "water pistol"
+    ],
+    "aliases": [
+      "gun",
+      "handgun",
+      "pistol",
+      "revolver",
+      "water_pistol"
+    ]
+  },
+  {
+    "group": "Activities",
+    "subgroup": "game",
     "emoji": "🎱",
     "emojiVersion": 0.6,
     "unicodeVersion": 6,
@@ -18045,53 +18364,6 @@
     ],
     "aliases": [
       "magic"
-    ]
-  },
-  {
-    "group": "Activities",
-    "subgroup": "game",
-    "emoji": "🧿",
-    "emojiVersion": 11,
-    "unicodeVersion": 11,
-    "description": "nazar amulet",
-    "tags": [
-      "bead",
-      "charm",
-      "evil-eye",
-      "nazar",
-      "nazar amulet",
-      "talisman"
-    ],
-    "aliases": [
-      "bead",
-      "charm",
-      "evil_eye",
-      "nazar",
-      "talisman"
-    ]
-  },
-  {
-    "group": "Activities",
-    "subgroup": "game",
-    "emoji": "🪬",
-    "emojiVersion": 14,
-    "unicodeVersion": 14,
-    "description": "hamsa",
-    "tags": [
-      "amulet",
-      "Fatima",
-      "hamsa",
-      "hand",
-      "Mary",
-      "Miriam",
-      "protection"
-    ],
-    "aliases": [
-      "amulet",
-      "fatima",
-      "mary",
-      "miriam",
-      "protection"
     ]
   },
   {
@@ -18841,6 +19113,28 @@
   {
     "group": "Objects",
     "subgroup": "clothing",
+    "emoji": "🪭",
+    "emojiVersion": 15,
+    "unicodeVersion": 15,
+    "description": "folding hand fan",
+    "tags": [
+      "cooling",
+      "dance",
+      "fan",
+      "flutter",
+      "folding hand fan",
+      "hot",
+      "shy"
+    ],
+    "aliases": [
+      "cooling",
+      "fan",
+      "shy"
+    ]
+  },
+  {
+    "group": "Objects",
+    "subgroup": "clothing",
     "emoji": "👛",
     "emojiVersion": 0.6,
     "unicodeVersion": 6,
@@ -19087,6 +19381,25 @@
     ],
     "aliases": [
       "woman_s_boot"
+    ]
+  },
+  {
+    "group": "Objects",
+    "subgroup": "clothing",
+    "emoji": "🪮",
+    "emojiVersion": 15,
+    "unicodeVersion": 15,
+    "description": "hair pick",
+    "tags": [
+      "Afro",
+      "comb",
+      "hair",
+      "pick",
+      "hair pick"
+    ],
+    "aliases": [
+      "comb",
+      "hair_pick"
     ]
   },
   {
@@ -19716,6 +20029,48 @@
       "beat",
       "conga",
       "rhythm"
+    ]
+  },
+  {
+    "group": "Objects",
+    "subgroup": "musical-instrument",
+    "emoji": "🪇",
+    "emojiVersion": 15,
+    "unicodeVersion": 15,
+    "description": "maracas",
+    "tags": [
+      "instrument",
+      "maracas",
+      "music",
+      "percussion",
+      "rattle",
+      "shake"
+    ],
+    "aliases": [
+      "percussion",
+      "rattle"
+    ]
+  },
+  {
+    "group": "Objects",
+    "subgroup": "musical-instrument",
+    "emoji": "🪈",
+    "emojiVersion": 15,
+    "unicodeVersion": 15,
+    "description": "flute",
+    "tags": [
+      "fife",
+      "flute",
+      "music",
+      "pipe",
+      "recorder",
+      "woodwind"
+    ],
+    "aliases": [
+      "fife",
+      "pipe",
+      "recorder",
+      "woodwind"
     ]
   },
   {
@@ -21672,26 +22027,16 @@
   {
     "group": "Objects",
     "subgroup": "tool",
-    "emoji": "🔫",
+    "emoji": "💣",
     "emojiVersion": 0.6,
     "unicodeVersion": 6,
-    "description": "water pistol",
+    "description": "bomb",
     "tags": [
-      "gun",
-      "handgun",
-      "pistol",
-      "revolver",
-      "tool",
-      "water",
-      "weapon",
-      "water pistol"
+      "bomb",
+      "comic"
     ],
     "aliases": [
-      "gun",
-      "handgun",
-      "pistol",
-      "revolver",
-      "water_pistol"
+      "bomb"
     ]
   },
   {
@@ -21702,7 +22047,6 @@
     "unicodeVersion": 13,
     "description": "boomerang",
     "tags": [
-      "australia",
       "boomerang",
       "rebound",
       "repercussion"
@@ -22740,6 +23084,53 @@
   {
     "group": "Objects",
     "subgroup": "other-object",
+    "emoji": "🧿",
+    "emojiVersion": 11,
+    "unicodeVersion": 11,
+    "description": "nazar amulet",
+    "tags": [
+      "bead",
+      "charm",
+      "evil-eye",
+      "nazar",
+      "nazar amulet",
+      "talisman"
+    ],
+    "aliases": [
+      "bead",
+      "charm",
+      "evil_eye",
+      "nazar",
+      "talisman"
+    ]
+  },
+  {
+    "group": "Objects",
+    "subgroup": "other-object",
+    "emoji": "🪬",
+    "emojiVersion": 14,
+    "unicodeVersion": 14,
+    "description": "hamsa",
+    "tags": [
+      "amulet",
+      "Fatima",
+      "hamsa",
+      "hand",
+      "Mary",
+      "Miriam",
+      "protection"
+    ],
+    "aliases": [
+      "amulet",
+      "fatima",
+      "mary",
+      "miriam",
+      "protection"
+    ]
+  },
+  {
+    "group": "Objects",
+    "subgroup": "other-object",
     "emoji": "🗿",
     "emojiVersion": 0.6,
     "unicodeVersion": 6,
@@ -23758,6 +24149,22 @@
   },
   {
     "group": "Symbols",
+    "subgroup": "religion",
+    "emoji": "🪯",
+    "emojiVersion": 15,
+    "unicodeVersion": 15,
+    "description": "khanda",
+    "tags": [
+      "khanda",
+      "religion",
+      "Sikh"
+    ],
+    "aliases": [
+      "sikh"
+    ]
+  },
+  {
+    "group": "Symbols",
     "subgroup": "zodiac",
     "emoji": "♈",
     "emojiVersion": 0.6,
@@ -24136,7 +24543,6 @@
     "tags": [
       "arrow",
       "button",
-      "red",
       "upwards button"
     ],
     "aliases": [
@@ -24170,8 +24576,7 @@
       "arrow",
       "button",
       "down",
-      "downwards button",
-      "red"
+      "downwards button"
     ],
     "aliases": [
       "downwards_button"
@@ -24318,6 +24723,24 @@
     ],
     "aliases": [
       "antenna_bars"
+    ]
+  },
+  {
+    "group": "Symbols",
+    "subgroup": "av-symbol",
+    "emoji": "🛜",
+    "emojiVersion": 15,
+    "unicodeVersion": 15,
+    "description": "wireless",
+    "tags": [
+      "computer",
+      "internet",
+      "network",
+      "wireless"
+    ],
+    "aliases": [
+      "internet",
+      "network"
     ]
   },
   {
