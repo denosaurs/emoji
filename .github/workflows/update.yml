@@ -13,7 +13,7 @@ on:
       version:
         description: 'Emoji Version'
         required: true
-        default: 14
+        default: 15
 
 jobs:
   publish:
@@ -24,13 +24,12 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Setup Deno
-        # uses: denoland/setup-deno@v1
-        uses: denoland/setup-deno@004814556e37c54a2f6e31384c9e18e983317366
+        uses: denoland/setup-deno@main
         with:
           deno-version: v1.x
 
       - name: Run Update Script
-        run: deno run --allow-net --allow-write ./update.ts ${{ github.event.inputs.version }}
+        run: deno task update ${{ github.event.inputs.version }}
 
       - name: Run deno fmt
         run: deno fmt

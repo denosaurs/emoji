@@ -7,9 +7,6 @@ export { Emoji };
 // Regex to parse emoji in a string - e.g. :coffee:
 const reEmojiName = /:([a-zA-Z0-9_\-\+]+):/g;
 
-// Regex to trim whitespace. (with IE8 support)
-const reTrimSpace = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
-
 // Non spacing mark, some emoticons have them. It's the 'Variant Form',
 // which provides more information so that emoticons can be rendered as
 // more colorful graphics. FE0E is a unicode text version, where as FE0F
@@ -28,11 +25,10 @@ function stripColons(str: string): string {
   if (colonIndex > -1) {
     if (colonIndex === str.length - 1) {
       str = str.substring(0, colonIndex);
-      return stripColons(str);
     } else {
-      str = str.substr(colonIndex + 1);
-      return stripColons(str);
+      str = str.substring(colonIndex + 1);
     }
+    return stripColons(str);
   }
 
   return str;
@@ -128,7 +124,7 @@ export function replace(
       return emoji ? replace(emoji) : s;
     })
     .join("");
-  return trim ? result.replace(reTrimSpace, "") : result;
+  return trim ? result.trim() : result;
 }
 
 /** Replace all emoji names in a string with actual emojis. */
