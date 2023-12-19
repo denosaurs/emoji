@@ -1,5 +1,5 @@
 import type { Emoji } from "./types.ts";
-import emojis from "./all.json" assert { type: "json" };
+import emojis from "./all.json" with { type: "json" };
 import { reUnicode } from "./unicode.ts";
 
 export { Emoji };
