@@ -2,7 +2,7 @@ import type { Emoji } from "./types.ts";
 import emojis from "./all.json" with { type: "json" };
 import { reUnicode } from "./unicode.ts";
 
-export { Emoji };
+export type { Emoji };
 
 // Regex to parse emoji in a string - e.g. :coffee:
 const reEmojiName = /:([a-zA-Z0-9_\-\+]+):/g;
@@ -128,7 +128,7 @@ export function replace(
 }
 
 /** Replace all emoji names in a string with actual emojis. */
-export function emojify(str: string) {
+export function emojify(str: string): string {
   if (!str) return "";
   return str
     .split(reEmojiName)
@@ -142,12 +142,12 @@ export function emojify(str: string) {
 }
 
 /** Replace all emoji in a string with actual emoji names. */
-export function unemojify(str: string) {
+export function unemojify(str: string): string {
   return replace(str, (emoji) => wrapColons(emoji.aliases[0]));
 }
 
 /** Tagged template version of emojify */
-export function emoji(template: TemplateStringsArray, ...args: string[]) {
+export function emoji(template: TemplateStringsArray, ...args: string[]): string {
   const chunks = [];
   for (let i = 0; i < template.length; i++) {
     chunks.push(emojify(template[i]));

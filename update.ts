@@ -1,5 +1,5 @@
 // Usage: deno run --allow-net --allow-write update.ts 14
-import { Emoji } from "./types.ts";
+import type { Emoji } from "./types.ts";
 
 const Qualification = {
   FULLY_QUALIFIED: "fully-qualified",

@@ -1,4 +1,9 @@
 {
+  "name": "@denosaurs/typefetch",
+  "version": "0.3.1",
+  "exports": {
+    ".": "./mod.ts"
+  },
   "tasks": {
     "update": "deno run --allow-net --allow-write update.ts"
   }
