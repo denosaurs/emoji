@@ -1,5 +1,5 @@
 {
-  "name": "@denosaurs/typefetch",
+  "name": "@denosaurs/emoji",
   "version": "0.3.1",
   "exports": {
     ".": "./mod.ts"
